@@ -1,0 +1,36 @@
+Klasa Klient - reprezentuje klienta, który składa zamówienie. Posiada atrybuty takie jak: imię, nazwisko, adres, numer telefonu, adres email.
+Klasa Produkt - reprezentuje produkt, który jest oferowany w sklepie. Posiada atrybuty takie jak: nazwa, opis, cena, ilość w magazynie.
+Klasa Zamówienie - reprezentuje zamówienie składane przez klienta. Posiada atrybuty takie jak: data złożenia zamówienia, status (złożone, w trakcie realizacji, zrealizowane), lista produktów, łączna kwota zamówienia.
+Klasa Płatność - reprezentuje płatność za zamówienie. Posiada atrybuty takie jak: typ płatności (karta, przelew), data płatności, kwota płatności.
+Klasa Magazyn - reprezentuje magazyn, w którym przechowywane są produkty. Posiada atrybuty takie jak: lista produktów, ilość produktów w magazynie, maksymalna ilość produktów w magazynie.
+Klasa Pracownik - reprezentuje pracownika sklepu. Posiada atrybuty takie jak: imię, nazwisko, adres email, numer telefonu, stanowisko.
+Klasa Dostawca - reprezentuje dostawcę, który dostarcza produkty do magazynu. Posiada atrybuty takie jak: nazwa, adres, numer telefonu, adres email.
+Klasa Faktura - reprezentuje fakturę za zakupione produkty. Posiada atrybuty takie jak: numer faktury, data wystawienia, kwota do zapłaty.
+Klasa KategoriaProduktu - reprezentuje kategorię, do której należy produkt. Posiada atrybuty takie jak: nazwa kategorii, opis.
+Klasa Adres - reprezentuje adres, który może być przypisany do klienta, dostawcy lub pracownika. Posiada atrybuty takie jak: ulica, numer domu, kod pocztowy, miasto, kraj.
+Klasa KodRabatowy - reprezentuje kod rabatowy, który można zastosować przy składaniu zamówienia. Posiada atrybuty takie jak: kod, procent rabatu, data ważności.
+Klasa Opinia - reprezentuje opinię, którą klient może wystawić na temat produktu lub obsługi sklepu. Posiada atrybuty takie jak: ocena (w skali od 1 do 5), treść opinii, data wystawienia.
+
+
+Biblioteka:
+Książka - klasa reprezentująca pojedynczą książkę, przechowująca takie informacje jak tytuł, autor, wydawnictwo, rok wydania itp.
+Autor - klasa reprezentująca autora, przechowująca takie informacje jak imię, nazwisko, datę urodzenia i śmierci, biografię itp.
+Wydawnictwo - klasa reprezentująca wydawnictwo, przechowująca takie informacje jak nazwa, adres, rok założenia itp.
+Czytelnik - klasa reprezentująca osobę, która wypożycza książki, przechowująca takie informacje jak imię, nazwisko, adres, numer telefonu itp.
+Wypożyczenie - klasa reprezentująca pojedyncze wypożyczenie, przechowująca takie informacje jak datę wypożyczenia, datę zwrotu, informacje o książce i czytelniku itp.
+Egzemplarz - klasa reprezentująca pojedynczy egzemplarz danej książki, przechowująca takie informacje jak numer egzemplarza, stan (np. czy jest dostępny do wypożyczenia), informacje o wypożyczeniach itp.
+Katalog - klasa reprezentująca katalog książek, przechowująca listę dostępnych książek, informacje o egzemplarzach, autorach itp.
+Bibliotekarz - klasa reprezentująca osobę odpowiedzialną za zarządzanie biblioteką, przechowująca takie informacje jak imię, nazwisko, stanowisko itp.
+System - klasa reprezentująca system biblioteki, przechowująca takie informacje jak informacje o bibliotekarzach, wypożyczeniach, książkach itp.
+Rezerwacja - klasa reprezentująca pojedynczą rezerwację, przechowująca takie informacje jak informacje o książce, czytelniku i dacie rezerwacji.
+KsiążkaKatalogowa - klasa reprezentująca książkę w kontekście katalogu, zawiera informacje o autorach, wydawnictwie, ilości dostępnych egzemplarzy itp.
+HistoriaWypożyczeń - klasa przechowująca historię wypożyczeń, zawiera informacje o wypożyczeniach, zwrotach itp.
+Biblioteka - klasa reprezentująca całą bibliotekę, przechowująca takie informacje jak informacje o czytelnikach, książkach, wypożyczeniach, rezerwacjach itp.
+RodzajKsiążki - klasa reprezentująca kategorię/rodzaj książki,
+Bibliotekarz - klasa reprezentująca bibliotekarza, który może wypożyczać i zwracać książki dla użytkowników biblioteki. Posiada atrybuty takie jak: imię, nazwisko, data zatrudnienia, numer identyfikacyjny.
+Katalog - klasa reprezentująca katalog biblioteki, w którym przechowywane są informacje o dostępnych książkach. Posiada atrybuty takie jak: lista książek, ilość egzemplarzy każdej książki.
+Wypożyczenie - klasa reprezentująca pojedyncze wypożyczenie książki przez użytkownika biblioteki. Posiada atrybuty takie jak: data wypożyczenia, data zwrotu, egzemplarz wypożyczonej książki, użytkownik, bibliotekarz.
+
+
+
+
