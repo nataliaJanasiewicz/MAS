@@ -16,3 +16,9 @@
   * With an attribute
   * Qualified
   * Composition
+* Project 3 - Inheritance
+  * An abstract class and polymorphic method invocation
+  * An overlapping inheritance
+  * A multi-inheritance
+  * A multi-aspect inheritance
+  * A dynamic inheritance
